@@ -35,22 +35,6 @@ PrivacyPal activates automatically when you visit a website:
 
 ---
 
-## 📁 File Structure
-
-Ensure your extension folder includes the following files:
-
-PrivacyPal/
-│
-├── manifest.json # Extension config and permissions
-├── popup.html # HTML layout for the privacy popup
-├── popup.js # Logic to display privacy insights
-├── styles.css # Styling for the popup UI
-├── background.js # Core service worker, handles tracking logic
-├── content.js # Interacts with loaded pages
-├── notification.css # Custom styles for alerts
-├── icons/ # Folder containing toolbar icons (PNG/SVG)
-
-
 ## 🛠️ Getting Started
 
 To load the extension in Chrome:
